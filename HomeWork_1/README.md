@@ -28,20 +28,18 @@
 
 ##### Описание возможного варианта решения:
 
-![Структура (архитектура) кластера](D:\МГТУ\МОБД\Homeworks\BigDataProc_HomeWorks\HomeWork_1\img\docker\cluster_architecture.png)
+![Структура (архитектура) кластера](./img/docker/cluster_architecture.png)
 
 ​                                                                Рисунок 1. Структура (архитектура) кластера
 
  
-
-
-![Cтруктура контейнера](D:\МГТУ\МОБД\Homeworks\BigDataProc_HomeWorks\HomeWork_1\img\docker\cluster_containers.png)
+![Cтруктура контейнера](./img/docker/cluster_containers.png)
 
 ​                                                                         Рисунок 2. Структура контейнера
 
 
 
-![Структура образов](D:\МГТУ\МОБД\Homeworks\BigDataProc_HomeWorks\HomeWork_1\img\docker\cluster_images.png)
+![Структура образов](./img/docker/cluster_images.png)
 
 ​                                                                              Рисунок 3. Структура образов
 
