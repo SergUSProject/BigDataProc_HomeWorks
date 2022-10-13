@@ -68,17 +68,17 @@
 
 ##### 	Сборка `Master Image`. 
 
- 	Вариант [`Docker`-файла](./master/Dockerfile) 
- 	Пример сценария [`entrypoint.sh`](./master/entrypoint.sh) 
+ Вариант [`Docker`-файла](./master/Dockerfile) 
+ Пример сценария [`entrypoint.sh`](./master/entrypoint.sh) 
 
-​	 Компиляции образа производится командой `docker build`
+ Компиляции образа производится командой `docker build`
 
 #####  	Сборка `Worker Image`. 
 
- 	Вариант [`Docker`-файла](./worker/Dockerfile)
- 	Пример сценария [`entrypoint.sh`](./worker/entrypoint.sh) 
+ Вариант [`Docker`-файла](./worker/Dockerfile)
+ Пример сценария [`entrypoint.sh`](./worker/entrypoint.sh) 
 
-​	 Компиляции образа производится командой `docker build`
+ Компиляции образа производится командой `docker build`
 
 ##### Этап 4. Создать файл `docker-compose.yml` ([например](.docker-compose.yml))
 
