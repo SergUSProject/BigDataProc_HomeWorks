@@ -80,8 +80,8 @@
 
  Компиляции образа производится командой `docker build`
 
-##### Этап 4. Создать файл `docker-compose.yml` ([например](.docker-compose.yml))
+##### Этап 4. Создать файл `docker-compose.yml` ([например](HomeWork_1/docker-compose.yml))
 
-​	Развернуть кластер `Hadoop`. Выполните следующую команду, чтобы развернуть `Master` и 4 `Workers`:
-​	`docker-compose up -d --scale worker=4`
-​	         
+Развернуть кластер `Hadoop`. Выполните следующую команду, чтобы развернуть `Master` и 4 `Workers`:
+
+`docker-compose up -d --scale worker=4`        
