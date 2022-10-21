@@ -82,6 +82,15 @@
 
 ##### Этап 4. Создать файл `docker-compose.yml` ([например](https://raw.githubusercontent.com/SergUSProject/BigDataProc_HomeWorks/main/HomeWork_1/docker-compose.yml))
 
+В файле `docker-compose.yml` в разделе `volumes` необходимо прописать разделы хостовой операционной системы, в которых будут размещены исполняемые файлы
+программ и файлы с данными для обработки, например:
+    
+    volumes:
+      - ./app:/home/bigdata/app     # .jar, .py files
+      - ./data:/home/bigdata/data   # data to copy to HDFS
+
+Эти разделы понадобятся при выполнении **Домашнего задания 2**
+
 Развернуть кластер `Hadoop`. Выполните следующую команду, чтобы развернуть `Master` и 4 `Workers`:
 
 `docker-compose up -d --scale worker=4`        
