@@ -106,7 +106,7 @@ jps
 
 ## Исходный код на Java
 
-1. [pom.xml](../projects/java/AverageRatingApp/pom.xml)
+1. [pom.xml](./projects/java/AverageRatingApp/pom.xml)
 2. [Review model class](../projects/java//AverageRatingApp/src/main/java/edu/classes/mr/Review.java)
 3. [Custom writable class](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/StatsTupleWritable.java)
 4. [Enum for json parsing result](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/ReviewState.java)
