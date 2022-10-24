@@ -41,9 +41,9 @@ App --> src --> main --> scala/
 
 ## Примеры исходного кода:
 
-[WordCount.scala](./scala/WordCountApp/src/main/scala/edu/classes/mr/WordCount.scala)
+[WordCount.scala](./WordCountApp/src/main/scala/edu/classes/mr/WordCount.scala)
 
-[build.sbt](./scala/WordCountApp/build.sbt)
+[build.sbt](./WordCountApp/build.sbt)
 
 ## Запуск MapReduce-вычислений для локальных файлов
 
