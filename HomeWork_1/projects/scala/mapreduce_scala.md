@@ -1,13 +1,13 @@
 # Создание `jar`-файла на Scala
 ## Содержание
 
-- Инструменты
-- Установка `Scala` plugin для `IntelliJ`
-- Создание `Scala` -проекта
-- Пример исхлдного кода
-- Запуск MapReduce-задачи для локальных файлах
-- Построение `jar` -файла
-- Запуск MapReduce `jar` -файла на YARN-кластере
+- [Инструменты](#Инструменты)
+- [Установка `Scala` plugin для `IntelliJ`](#Установка-`Scala`-plugin-для-`IntelliJ`)
+- [Создание `Scala`-проекта](#Создание-`Scala`-проекта)
+- [Пример исходного кода](#Пример-исходного-кода)
+- [Запуск MapReduce-задачи для локальных файлов](#Запуск-MapReduce-задачи-для-локальных-файлов)
+- [Построение `jar`-файла](#Построение-`jar`-файла)
+- [Запуск MapReduce `jar`-файла на YARN-кластере](#Запуск-MapReduce-`jar`-файла-на-YARN-кластере)
 
 ## Инструменты
 
@@ -24,7 +24,7 @@
 
 `File` -> `Settings` -> `Plugins` -> Найти `Scala` plugin для `JetBrains` -> Нажать `Install` -> Перезагрузить IDE
 
-## Создание `Scala` -проекта
+## Создание `Scala`-проекта
 
 `File` -> `New` -> `Project...` -> `Scala` with `sbt` -> Next ->  Name: `WordCountApp` - > Finish
 
@@ -39,13 +39,13 @@ App --> src --> main --> scala/
 ```
 
 
-## Примеры `source code`:
+## Примеры исходного кода:
 
-[WordCount.scala](../projects/scala/WordCountApp/src/main/scala/edu/classes/mr/WordCount.scala)
+[WordCount.scala](./scala/WordCountApp/src/main/scala/edu/classes/mr/WordCount.scala)
 
-[build.sbt](../projects/scala/WordCountApp/build.sbt)
+[build.sbt](./scala/WordCountApp/build.sbt)
 
-## Запуск MapReduce-вычислений с локальными файлами
+## Запуск MapReduce-вычислений для локальных файлов
 
 1) `Run` -> `Edit Configurations...`
 2) `Add new configuration...` для приложения
@@ -58,7 +58,7 @@ App --> src --> main --> scala/
 5) `Apply` -> `OK`
 6) `Run` -> `Run...` -> Выберите Вашу конфигурацию
 
-## Построение `jar` -file
+## Построение `jar`-file
 
 1. `File` -> `Project Structure...` -> `Artifacts`
 2. `Add` -> `JAR` -> `Empty`
