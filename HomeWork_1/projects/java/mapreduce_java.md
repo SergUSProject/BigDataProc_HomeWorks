@@ -5,11 +5,11 @@
 
 - [Инструменты](#Инструменты)
 - [Конфигурация](#Конфигурация)
-- [Создание Java-проекта в IntelliJ](#Создание Java-проекта в IntelliJ)
-- [Исходный код на Java](#Исходный код на Java)
-- [Выполнение MapReduce-вычислений на локальных файлах](#Выполнение MapReduce-вычислений на локальных файлах)
-- [Построение `jar` файла на `maven`](#Построение `jar` файла на `maven`)
-- [Выполнение MapReduce `jar` файла на YARN-кластере](#Выполнение MapReduce `jar` файла на YARN-кластере)
+- [Создание Java-проекта в IntelliJ](#Создание-Java-проекта-в-IntelliJ)
+- [Исходный код на Java](#Исходный-код-на-Java)
+- [Выполнение MapReduce-вычислений на локальных файлах](#Выполнение-MapReduce-вычислений-на-локальных-файлах)
+- [Построение `jar` файла на `maven`](#Построение-`jar`-файла-на-`maven`)
+- [Выполнение MapReduce `jar` файла на YARN-кластере](#Выполнение-MapReduce-`jar`-файла-на-YARN-кластере)
 
 ## Инструменты
 
@@ -107,12 +107,12 @@ jps
 ## Исходный код на Java
 
 1. [pom.xml](./AverageRatingApp/pom.xml)
-2. [Review model class](../projects/java//AverageRatingApp/src/main/java/edu/classes/mr/Review.java)
-3. [Custom writable class](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/StatsTupleWritable.java)
-4. [Enum for json parsing result](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/ReviewState.java)
-5. [Driver class](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingDriver.java)
-6. [Mapper class](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingMapper.java)
-7. [Reducer class](../projects/java/AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingReducer.java)
+2. [Review model class](./AverageRatingApp/src/main/java/edu/classes/mr/Review.java)
+3. [Custom writable class](./AverageRatingApp/src/main/java/edu/classes/mr/StatsTupleWritable.java)
+4. [Enum for json parsing result](./AverageRatingApp/src/main/java/edu/classes/mr/ReviewState.java)
+5. [Driver class](./AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingDriver.java)
+6. [Mapper class](./AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingMapper.java)
+7. [Reducer class](./AverageRatingApp/src/main/java/edu/classes/mr/AvgRatingReducer.java)
 8. Test class: `TODO`
 
 ## Выполнение MapReduce-вычислений на локальных файлах
