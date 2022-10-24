@@ -32,7 +32,7 @@
 
 ​                                                                Рисунок 1. Структура (архитектура) кластера
 
- 
+
 ![Cтруктура контейнера](./img/docker/cluster_containers.png)
 
 ​                                                                         Рисунок 2. Структура контейнера
@@ -82,15 +82,22 @@
 
 ##### Этап 4. Создать файл `docker-compose.yml` ([например](https://raw.githubusercontent.com/SergUSProject/BigDataProc_HomeWorks/main/HomeWork_1/docker-compose.yml))
 
-В файле `docker-compose.yml` в разделе `volumes` необходимо прописать разделы хостовой операционной системы, в которых будут размещены исполняемые файлы
-программ и файлы с данными для обработки, например:
-    
-    volumes:
-      - ./app:/home/bigdata/app     # .jar, .py files
-      - ./data:/home/bigdata/data   # data to copy to HDFS
+В файле `docker-compose.yml` в разделе `volumes` необходимо прописать разделы хостовой операционной системы, в которых будут размещены исполняемые файлы программ и файлы с данными для обработки, например:
+
+```
+volumes:
+  - ./app:/home/bigdata/app     # .jar, .py files
+  - ./data:/home/bigdata/data   # data to copy to HDFS
+```
 
 Эти разделы понадобятся при выполнении **Домашнего задания 2**
 
+Получить содержимое папки /home/bigdata/app можно путем создания [`jar`-файла java-проекта](./projects/java/) или [`jar`-файла scala-проекта](./projects/scala/), а также путем копирования [`.py` файлов](./projects/python/).
+
+В папку /home/bigdata/data необходимо скопировать файл [review товаров](https://disk.yandex.ru/d/KHXsSY4tN01Onw) и скопировать и распаковать файл [рейтинга товаров](https://disk.yandex.ru/d/an4fqzhLc_FUGw).
+
 Развернуть кластер `Hadoop`. Выполните следующую команду, чтобы развернуть `Master` и 4 `Workers`:
 
-`docker-compose up -d --scale worker=4`        
+```
+docker-compose up -d --scale worker=4
+```
