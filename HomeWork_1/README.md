@@ -92,7 +92,7 @@ volumes:
 
 Эти разделы понадобятся при выполнении **Домашнего задания 2**
 
-Получить содержимое папки /home/bigdata/app можно путем создания [`jar`-файла java-проекта](./projects/java/mapreduce_java.md) или [`jar`-файла scala-проекта](./projects/scala/mapreduce_scala.md), а также путем копирования [`.py` файлов](./projects/python/mapreduce_python.md).
+Получить содержимое папки /home/bigdata/app можно путем создания [`jar`-файла java-проекта](./projects/java/mapreduce_java.md) или [`jar`-файла scala-проекта](./projects/scala/mapreduce_scala.md), а также путем копирования [`.py` файлов](./projects/py/mapreduce_python.md).
 
 В папку /home/bigdata/data необходимо скопировать файл [review товаров](https://disk.yandex.ru/d/KHXsSY4tN01Onw) и скопировать и распаковать файл [рейтинга товаров](https://disk.yandex.ru/d/an4fqzhLc_FUGw).
 
