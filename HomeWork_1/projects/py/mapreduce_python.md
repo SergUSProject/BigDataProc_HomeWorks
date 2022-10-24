@@ -2,11 +2,11 @@
 ## Содержание:
 
 - [Инструменты](#Инструменты)
-- [Установка `Python` plugin для `IntelliJ`](#Установка `Python` plugin для `IntelliJ`)
-- [Создание `Python`-проекта](#Создание `Python` -проекта)
+- [Установка `Python` plugin для `IntelliJ`](#Установка-`Python`-plugin-для-`IntelliJ`)
+- [Создание `Python`-проекта](#Создание-`Python`-проекта)
 - [Пример исходного кода](#Пример исходного кода)
-- [Запуск MapReduce на локальных файлах](#Запуск MapReduce с локальными файлами)
-- [Запуск MapReduce `python` -приложений на YARN-кластере](#Запуск MapReduce `python` -приложения на YARN-кластере)
+- [Запуск MapReduce с локальными файлами](#Запуск-MapReduce-с-локальными-файлами)
+- [Запуск MapReduce `python`-приложения на YARN-кластере](#Запуск-MapReduce-`python`-приложения-на-YARN-кластере)
 
 ## Инструменты
 
@@ -31,11 +31,11 @@
 
 Mapper
 
-[tokenizer_mapper.py](../projects/py/wordcountapp/tokenizer_mapper.py)
+[tokenizer_mapper.py](./wordcountapp/tokenizer_mapper.py)
 
 Combiner/Reducer
 
-[intsum_reducer.py](../projects/py/wordcountapp/intsum_reducer.py)
+[intsum_reducer.py](./wordcountapp/intsum_reducer.py)
 
 ## Запуск MapReduce с локальными файлами
 
