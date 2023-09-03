@@ -1,0 +1,12 @@
+.idea
+.ipynb_checkpoints
+.settings
+.project
+.classpath
+.vscode
+target
+*.class
+*.iml
+*.log
+*_debug.md
+*.drawio
