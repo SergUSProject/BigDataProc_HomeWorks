@@ -2,18 +2,18 @@
 
 ## HW1. Spark RDD API
 
-[Spark RDD API](docs/BigData_A1.md)
+[Spark RDD API](docs/BigData_HW1.md)
 
 ## HW2. Spark DataFrame API
 
-[Trip Analysis](docs/BigData_A2.md)
+[Trip Analysis](docs/BigData_HW2.md)
 
 
 ## HW3. Spark Streaming
 
-[Spark Streaming with Telegram API](docs/BigData_A3_telegram.md)
+[Spark Streaming with Telegram API](docs/BigData_HW3.md)
 
 ## HW4. Spark MLlib
 
-[Recommendation System](docs/BigData_A4.md)
+[Recommendation System](docs/BigData_HW4.md)
 
